@@ -1,6 +1,6 @@
-
-numero=0
-while(numero!=0):
-    print("Dime un numero")
-    if (numero==0):
-        print(numero+numero)
+numeros=0
+numeros=(int)(input("Dime un numero"))
+while(numeros!=0):
+   (int)(input("Dime un numero"))
+   if(numeros==0):
+    print
