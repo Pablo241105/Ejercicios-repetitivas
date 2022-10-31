@@ -14,3 +14,4 @@ while numerofinal!=numeros:
         cero+=1
     numerofinal+=1
 print(mayor,"Estos son mayores que cero",menor,"Estos menores que cero ",cero,"Estos son cero")
+
