@@ -7,11 +7,12 @@ while limiteinferior>limitesuperior:
     limiteinferior=(int)(input("Di el limite inferior: "))
     limitesuperior=(int)(input("Di el limite superior: "))
 
-numeros=0
-numeros=(int)(input("Dime un numero: "))
+numeros=1
+
 suma=0
 while numeros!=0:
   numeros=(int)(input("Dime un numero: "))
-  suma=numeros+suma
+  suma=suma+numeros
+
 
 print("La suma de tus numeros es:", suma)
