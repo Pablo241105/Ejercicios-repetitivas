@@ -13,6 +13,17 @@ suma=0
 while numeros!=0:
   numeros=(int)(input("Dime un numero: "))
   suma=suma+numeros
+if numeros>=limiteinferior and numeros<=limitesuperior:
+  print("Esta dentro")
+else:
+  print("Se sale")
+
+
+
+
+
+
+
 
 
 print("La suma de tus numeros es:", suma)
