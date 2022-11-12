@@ -1,5 +1,4 @@
 
-
 def potencia(base, exponente):
     elevado= 1
     for x in range(exponente ):
