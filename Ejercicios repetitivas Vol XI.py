@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 numero = (int)(input("Dime un número:\n"))
 contador = 0
 
@@ -22,3 +23,5 @@ if contador >= 1:
 else:
     print("Es primo")
 >>>>>>> main
+=======
+>>>>>>> parent of d65834c... a
