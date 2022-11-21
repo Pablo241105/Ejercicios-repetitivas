@@ -2,20 +2,21 @@ from tkinter import *
 from tkinter import ttk
 def saludar():
     texto=campoTexto.get()
-    print(texto)
+    textoLabel.set(texto)
 
     
 ventana = Tk()
 ventana.title("Ejercicio 1")
 ventana.geometry("250x300")
 ventana.resizable(width=False,height=False)
-ventana.config(background="cyan")
+ventana.config(background="salmon")
 
 
 frm = ttk.Frame(ventana).pack()
 
-
-labeltexto=ttk.Label(frm,text="Hola Tkinter")
+textoLabel = StringVar()
+textoLabel.set("Hola tkinter")
+labeltexto=ttk.Label(frm,textvariable=textoLabel)
 labeltexto.config(background="gold",border=5,font=("Arial",15))
 labeltexto.pack()
 
