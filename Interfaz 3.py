@@ -8,7 +8,7 @@ confirmar=""
 vUsuarios=[]
 
 
-    
+
 ventana=Tk()
 ventana.title("Pedir ingredientes al usuario")
 ventana.geometry("600x600")
